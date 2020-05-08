@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+                                    /* Heading CSS */
+.flex{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-flow: column;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+}
+.tophead{
+    height: 50px;
+    width: 100%;
+    background-color: #316DC3;
+    color: white;
+    float: left;
+}
+.tlink{
+    padding-left: 150px;
+}
+.tlink li{
+    list-style-type: none;
+   display: inline-block;
+   padding: 8px;
+}
+.ttext{
+    position: absolute;
+    top: 4px;
+    left: 500px;
+    margin-top: 10px;
+    font-family:'Open Sans', 'Helvetica Neue', sans-serif;
+}
+input{
+    padding: 1px;
+    border: 1px solid #427900;
+    color: #427900;
+
+}
+.tbuttons{
+    position: absolute;
+    top: 15px;
+    left: 1150px;
+}
+
+.header{
+    height: 70px;
+    width: 100%;
+    background-color: #F7F8FA;
+    
+}
+.slogo{
+    position: absolute;
+    top: 55px;
+    left: 150px;
+}
+
+
+.nav{
+   flex-flow: row;
+   background: none;
+   border: none;
+   margin-left: 350px;
+}
+
+ul{
+    list-style: none;
+}
+
+#home{
+    
+    font-family: 'Open Sans';
+    color: white;
+    background-color: #316DC3;
+    text-align: center;
+    border-radius: 30px;
+    border: none;
+    width: 5%;
+    height: 32px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    
+}
+.about:hover{
+    font-family: 'Open Sans';
+    color: white;
+    background-color: #316DC3;
+    text-align: center;
+    border-radius: 30px;
+    border: none;
+    width: initial;
+    height: 20px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+}
+.about{
+    margin-left: 10px;
+    margin-top: 8px;
+    background: none;
+    border: none;
+    color: black;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 13px;
+   border-radius: 15px;
+}

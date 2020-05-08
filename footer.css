@@ -1,0 +1,31 @@
+.footer{
+    height: 350px;
+    width: 100%;
+    background-color: #23272E;
+    color: #BBBBBB; 
+    margin-top: 5%;
+}
+.useful{
+    position: absolute;
+    top: 455%;
+     color: white;
+     margin-left: 40%;
+}
+.connect{
+    margin-left: 70%;
+     color: white;
+     list-style: none;
+}
+
+.copy{
+    height: 50px;
+    width: 100%;
+    background-color: blueviolet;
+    color: white;
+    text-indent: 200px;
+}
+
+.address{
+    margin-left: 200px;
+    font-family: 'Open Sans';
+}
